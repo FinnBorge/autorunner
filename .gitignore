@@ -27,6 +27,15 @@ poetry.lock
 .venv/
 venv/
 ENV/
+.python-version
+
+# Application specific
+*.log
+*.png
+images/*
+!images/.gitkeep
+debug_*
+screen_*
 
 # Unit test / coverage reports
 htmlcov/
